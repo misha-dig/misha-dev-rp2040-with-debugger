@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "External_MST22D18G2-125")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MST22D18G2-125/MST22D18G2-125.pretty")(options "")(descr ""))
+  (lib (name "External_RP2040")(type "KiCad")(uri "${KIPRJMOD}/Libraries/RP2040_locale/RP2040.pretty")(options "")(descr ""))
+)

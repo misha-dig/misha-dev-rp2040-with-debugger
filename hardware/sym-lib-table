@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "External_RP2040")(type "Legacy")(uri "${KIPRJMOD}/Libraries/RP2040_locale/MCU_RaspberryPi_RP2040.lib")(options "")(descr ""))
+  (lib (name "External_MST22D18G2-125")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MST22D18G2-125/MST22D18G2-125.kicad_sym")(options "")(descr ""))
+)

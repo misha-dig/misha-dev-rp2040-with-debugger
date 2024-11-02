@@ -1,0 +1,127 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "151c78d1-891b-40e8-9342-455a73166f31")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 148.59 53.34)
+		(size 39.37 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03190d6f-df2d-4ff9-b873-05165cfcae54")
+		(property "Sheetname" "MainCircuit"
+			(at 148.59 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MainCircuit.kicad_sch"
+			(at 148.59 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SimpleDebuggerBoard"
+				(path "/151c78d1-891b-40e8-9342-455a73166f31"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 53.34)
+		(size 45.72 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "765ab014-308b-41cf-b098-f42f04673d59")
+		(property "Sheetname" "DebuggerCircuit"
+			(at 100.33 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DebuggerCircuit.kicad_sch"
+			(at 100.33 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SimpleDebuggerBoard"
+				(path "/151c78d1-891b-40e8-9342-455a73166f31"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 53.34)
+		(size 45.72 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8761fae4-238e-47ab-be75-86ef35071a3d")
+		(property "Sheetname" "VoltageRegulation"
+			(at 50.8 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VoltageRegulation.kicad_sch"
+			(at 50.8 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SimpleDebuggerBoard"
+				(path "/151c78d1-891b-40e8-9342-455a73166f31"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
