@@ -33,7 +33,7 @@ Will provide binaries and instruction later.
 * [Getting started with Raspberry Pi
 Pico-series](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
 
-* [Raspberry Pi Licence Information] (https://datasheets.raspberrypi.com/licence.html)
+* [Raspberry Pi Licence Information](https://datasheets.raspberrypi.com/licence.html)
 
 * [Licensing](https://www.raspberrypi.com/licensing/)
 
