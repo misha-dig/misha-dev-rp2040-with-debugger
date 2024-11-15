@@ -24,16 +24,18 @@ Will provide binaries and instruction later.
 - Flash memory size 16 - 128 Mbit, depending in your prototyping. Use Winbond flash memory series W25QxxxJVxxx as Raspberry Pi recommendation for RP2040 MCU. Required external flash memory each RP2040 in both MCUs. 
 
 # Credit
-* [Debugprobe](https://github.com/raspberrypi/debugprobe (I take some portion of code, but current I used for configuration of debugprobe)
+* [Debugprobe](https://github.com/raspberrypi/debugprobe) (I take some portion of code, but current I used for configuration of debugprobe)
 
-* [Raspberry Pi Documentation]https://www.raspberrypi.com/documentation/microcontrollers/ (Included: Hardware design with RP2040 and Getting started with RP2040)
+* [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/microcontrollers/) (Included: Hardware design with RP2040 and Getting started with RP2040)
 
-* [Raspberry Pi Pico Datasheet] https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf
+* [Raspberry Pi Pico Datasheet](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
 
 * [Getting started with Raspberry Pi
-Pico-series] https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf
+Pico-series](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf)
 
-* Thanks for developing excellent RP2040 MCU to Raspberry Pi that can develop software and hardware opensource!!!
+* [Licensing](https://www.raspberrypi.com/licensing/)
+
+* Thanks for developing excellent RP2040 MCU to Raspberry Pi that can develop software and hardware opensource!
 
 # What I want to ask  
 
