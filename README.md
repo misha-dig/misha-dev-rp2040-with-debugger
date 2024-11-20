@@ -24,7 +24,7 @@ Will provide binaries and instruction later.
 - Flash memory size 16 - 128 Mbit, depending in your prototyping. Use Winbond flash memory series W25QxxxJVxxx as Raspberry Pi recommendation for RP2040 MCU. Required external flash memory each RP2040 in both MCUs. 
 
 # Credit
-* [Debugprobe](https://github.com/raspberrypi/debugprobe) (I take some portion of code, but current I used for configuration of debugprobe)
+* [Debugprobe](https://github.com/raspberrypi/debugprobe) (but I take portion source of code for only configuration of debugprobe due licensing complex and restriction of modification). I will planed to replace CMSIS-DAP software and hardware that support full open-source license and save BOM cost. Configuration CMSIS-DAP is licensed MIT, e.g. [board_pico_config.h](https://github.com/raspberrypi/debugprobe/blob/master/include/board_pico_config.h)
 
 * [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/microcontrollers/) (Included: Hardware design with RP2040 and Getting started with RP2040)
 
@@ -37,6 +37,8 @@ Pico-series](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.p
 
 * [Licensing](https://www.raspberrypi.com/licensing/)
 
+* [The design is based rp2040/Minimal-KiCAD.zip](https://datasheets.raspberrypi.com/rp2040/Minimal-KiCAD.zip) (Use downloaded circuits with mapping debugging and serial ports between two RP2040 MCUs)
+
 * Thanks for developing excellent RP2040 MCU to Raspberry Pi that can develop software and hardware opensource!
 
 # What I want to ask  
@@ -48,4 +50,9 @@ Pico-series](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.p
 
 * PCB and sechmatics design are licensed licensed under CC BY-NC-ND 4.0. (C) Misha Zaslavskis
 
+DESIGNS ARE PROVIDED “AS IS” AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THESE DESIGNS INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THESE DESIGNS.
+
 * Software (including configuration and testing) are licensed under MIT. (C) Misha Zaslavskis
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
